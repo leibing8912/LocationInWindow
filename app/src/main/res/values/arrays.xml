@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <string-array name="combine_navigation_name">
+        <item>概述</item>
+        <item>就诊科室</item>
+        <item>包含项目</item>
+        <item>注意事项</item>
+        <item>临床意义</item>
+        <item>可能的症状</item>
+        <item>可能的疾病</item>
+    </string-array>
+    <string-array name="non_combine_navigation_name">
+        <item>概述</item>
+        <item>正常值</item>
+        <item>临床意义</item>
+        <item>可能的症状</item>
+        <item>可能的疾病</item>
+    </string-array>
+
+    <string-array name="symptom_detail_navigation_name">
+        <item>症状</item>
+        <item>病因</item>
+        <item>检查</item>
+        <item>诊断</item>
+        <item>预防</item>
+        <item>食疗</item>
+    </string-array>
+
+    <string-array name="disease_detail_navigation_name">
+        <item>症状</item>
+        <item>病因</item>
+        <item>检查</item>
+        <item>诊断</item>
+        <item>预防</item>
+    </string-array>
+</resources>
